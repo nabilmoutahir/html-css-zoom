@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    background-color: grey;
+}
+
+/* FIRST SECTION---------------- */
+.section-top {
+    height: 5vh;
+}
+
+/* MAIN--------------------------- */
+#main {
+    height: 80vh;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.conatainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.window {
+    background-color: cornflowerblue;
+    width: calc(100% / 7 - 4px);
+    height: calc(80vh / 5 - 8px);
+    margin: 4px 2px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* LAST SECTION------------------ */
+.section-bottom {
+    height: 15vh;
+}
