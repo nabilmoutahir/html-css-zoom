@@ -46,6 +46,23 @@
     width: calc(100% / 7 - 4px);
     height: calc(80vh / 5 - 8px);
     margin: 4px 2px;
+    color: white; 
+    position: relative; 
+}
+
+.user-image {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .row {
@@ -53,7 +70,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 
 /* LAST SECTION------------------ */
 .section-bottom {
